@@ -4,7 +4,9 @@ pipeline {
       stage ('Build') {
          steps {
             withMaven() {
-               sh "./mvnw verify"
+              withSonarQubeEnv('Sonar Cloud - sdeyris') {
+                   sh "./mvnw verify sonar:sonar"
+              }
             }
          }
       }

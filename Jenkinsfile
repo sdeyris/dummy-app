@@ -1,7 +1,7 @@
 pipeline {
    agent any
    stages {
-      stage ('Build') {
+      stage ('Code Quality') {
          steps {
             withMaven() {
               withSonarQubeEnv('Sonar Cloud - sdeyris') {

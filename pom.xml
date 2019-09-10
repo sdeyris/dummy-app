@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>dummy-app</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Demo project for Spring Boot and SonarQube</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

@@ -1,5 +1,5 @@
 pipeline:
-  name: ILOVE YOGA
+  name: Test Yoga
   identifier: ILOVE_YOGA
   projectIdentifier: default_project
   orgIdentifier: default
